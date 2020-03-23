@@ -1,3 +1,13 @@
+sniffer
+
+.idea
+
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+cmake-build-debug
+CMakeFiles
+
 # Prerequisites
 *.d
 
