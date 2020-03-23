@@ -86,7 +86,7 @@ int perform_capture(const char *device, const char *filename, const sniffer_opti
   close_output_capture_file(file);
   close_capture_handle(handle);
   if (options->verbose) {
-    printf("-> Success!\nQuitting, bye !");
+    printf("-> Success!\nQuitting, bye !\n");
   }
   return 0;
 }
