@@ -135,3 +135,14 @@ program telnet:
  ---
 $> telnet scn.org
  ---
+
+If you cannot use a proper OS and have to run the program on Windows please note that I achieved to compile it on this
+horrible platform but I was never able to run it properly. If you really need it you can contact me via email and we
+will try to make it work but I cannot promise you anything. Your best chance is probably to use the embedded linux
+subsystem in the newest releases of Windows or change your OS.
+However the program should run smoothly on most devices like any Linux or Unix like system like MacOS (I don't have
+access to any Apple device so I wasn't able to test it though). I even was able to run it under an Android shell
+compiled in ARM. It is therefore compatible with the vast majority of computing devices existing on earth.
+
+
+Enjoy ! :)
