@@ -8,6 +8,10 @@
 #include <pcap.h>
 #include "sniffer.h"
 
+#ifndef PCAP_NETMASK_UNKNOWN
+#define PCAP_NETMASK_UNKNOWN    0xffffffff
+#endif //PCAP_NETMASK_UNKNOWN
+
 void close_capture_handle(pcap_t *handle);
 pcap_t *create_filtered_capture_handle(const char *device,
                                        const char *filter_expression,
